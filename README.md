@@ -8,7 +8,9 @@ Scan for WiFi in any busy area in the UK and you will almost certainly find at l
 
 Made this a repo rather than a gist so it can be open to PRs and there is the potential to create separate categorised lists for location specific SSIDs and scripts etc.
 
-What you do with this info is not my responsibility. If you load them into PineAP or similar, only do so for educational purposes or if authorised for white hat pentesting purposes. It is on you to follow all applicable local laws and regulations.
+My plan is to use this to demonstrate the dangers of public WiFi in a white hat manner. Got ideas to contribute to that effort? Throw a PR!
+
+**What you do with this info is not my responsibility. If you load them into PineAP or similar, only do so for educational purposes or if authorised for white hat pentesting purposes. It is on you to follow all applicable local laws and regulations.**
 
 ## How to use the script to add the full list to PineAP
 
