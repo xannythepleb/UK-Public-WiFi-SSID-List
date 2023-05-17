@@ -12,7 +12,7 @@ What you do with this info is not my responsibility. If you load them into PineA
 
 ## How to use the script to add the full list to PineAP
 
-You can just copy and paste anything from the list into the web UI but if you want the entire list or prefer using SSH you can use the shell script to automate filling your SSID pool with the latest version of the list.
+The web UI only allows you to add one SSID at a time. If you want the entire list, SSH into your Pineapple and you can use the shell script to automate filling your SSID pool with the latest version.
 
 You run the script directly on your Pineapple. Tested on an Mk7. No reason it wouldn't work on any Pineapple with internal storage. Has to be modified for the Nano with SD storage.
 
@@ -28,3 +28,7 @@ Run from the Pineapple shell whenever you need it:
 ```
 ./grab-uk-ssids-pineap.sh
 ```
+
+The script is very simple: it simply uses `wget` to grab the latest version and the `pineap add_ssid_file` command to add it to the SSID pool.
+
+If you are offline and have previously downloaded the list you can simply add it using the `pineap add_ssid_file` command.
